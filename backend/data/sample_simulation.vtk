@@ -1,0 +1,24 @@
+# vtk DataFile Version 3.0
+Sample simulation dataset
+ASCII
+DATASET POLYDATA
+POINTS 12 float
+0 0 0
+1 0 0
+2 0 0
+0 1 0
+1 1 0
+2 1 0
+0 2 0
+1 2 0
+2 2 0
+0 0 1
+1 1 1
+2 2 1
+POINT_DATA 12
+SCALARS pressure float 1
+LOOKUP_TABLE default
+1.0 1.4 2.0 1.2 2.2 3.6 1.1 2.4 4.8 1.5 3.2 5.6
+SCALARS temperature float 1
+LOOKUP_TABLE default
+22 23 24 23 26 29 24 28 34 23 30 39

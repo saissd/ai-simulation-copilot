@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Simulation Insight Copilot</title>
+
+  <link rel="stylesheet" href="/static/styles.css" />
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Scientific Visualization + AI</p>
+        <h1>AI Simulation Insight Copilot</h1>
+        <p class="subtitle">Turns simulation data into insights + visuals</p>
+      </div>
+      <button id="refreshBtn">Refresh</button>
+    </header>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Dataset Summary</h2>
+        <div id="summaryBox">Loading...</div>
+      </div>
+
+      <div class="card">
+        <h2>Scalar Fields</h2>
+        <div id="scalarBox">Loading...</div>
+      </div>
+    </section>
+
+    <section class="grid bottom-grid">
+      <div class="card large-card">
+        <h2>AI Insight</h2>
+        <p id="insightBox">Loading...</p>
+      </div>
+
+      <div class="card large-card">
+        <h2>Ask</h2>
+        <textarea id="questionInput"></textarea>
+        <button id="askBtn">Ask</button>
+        <pre id="chatAnswer"></pre>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>3D Visualization</h2>
+      <canvas id="vtkCanvas" width="600" height="400"></canvas>
+    </section>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
