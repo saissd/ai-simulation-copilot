@@ -120,13 +120,3 @@ http://127.0.0.1:8000
 - Upload and multi-file handling  
 - Export reports (PDF / JSON)
 
----
-
-## 🧠 Interview Talking Point
-
-Built a full-stack system that parses VTK simulation data, extracts scalar fields, and combines 3D visualization with an AI copilot to interpret simulation behavior in natural language.
-
----
-
-## 📌 Repo Description (short)
-AI-powered visualization and interpretation of scientific simulation data using VTK, FastAPI, and Three.js.
